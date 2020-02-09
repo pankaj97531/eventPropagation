@@ -1,0 +1,14 @@
+//https://www.youtube.com/watch?v=aVSf0b1jVKk
+document.querySelector('#gp1').addEventListener('click',(e)=>{
+	//console.log(e.target.id);
+	console.log("gp")
+},true)//capturing
+document.querySelector('#p2').addEventListener('click',(e)=>{
+	//console.log(e.target.id);
+	console.log("p")
+},false)//bubbling
+document.querySelector('#c3').addEventListener('click',(e)=>{
+	//console.log(e.target.id);
+	console.log("c")
+	//e.stopPropagation();
+},true)//capturing
